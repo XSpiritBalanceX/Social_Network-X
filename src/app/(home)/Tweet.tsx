@@ -1,7 +1,14 @@
-"use client";
+import type { ITweet } from "@/shared/types/tweet.interface";
 
-interface ITweetProps {}
+interface ITweetProps {
+  tweet: ITweet;
+}
 
-export function Tweet({}: ITweetProps) {
-  return <div>Tweet</div>;
+export function Tweet({ tweet }: ITweetProps) {
+  return (
+    <div>
+      <p>{tweet.text}</p>
+      <span>@{tweet.author}</span>
+    </div>
+  );
 }
