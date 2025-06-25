@@ -13,7 +13,7 @@ export function Header() {
           priority
         />
       </Link>
-      <nav className="flex gap-6 text-sm text-white/80">
+      <nav className="flex gap-6 text-white/80">
         <Link href={"/"}>Home</Link>
         <Link href={"/"}>Explore</Link>
         <Link href={"/"}>Profile</Link>
