@@ -1,6 +1,10 @@
-import Image from "next/image";
 import { Tweet } from "./Tweet";
 import { TWEETS } from "@/shared/data/tweets.data";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Home",
+};
 
 export default function Home() {
   return (
