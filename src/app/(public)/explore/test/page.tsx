@@ -1,4 +1,4 @@
-type Params = { tag: string };
+type Params = { tag?: string };
 
 export default async function Test({
   searchParams,
